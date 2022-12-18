@@ -1,0 +1,39 @@
+*{
+    background-color: gray;
+    box-sizing: border-box;
+}
+
+.gallery{
+    border: 1px solid #ccc;
+}
+
+.gallery img{
+    width: 380px;
+    height: 200px;
+}
+
+.description{
+    padding: 15px;
+    text-align: center;
+}
+
+.responsive{
+    padding: 5px 5px;
+    float: left;
+    width: 25%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive{
+        width: 50%;
+        margin: 5px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive{
+        width: 100%;
+    }
+}
+
+
